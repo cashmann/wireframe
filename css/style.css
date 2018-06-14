@@ -31,3 +31,51 @@ a {
   color: #ccc;
   line-height: 70px;
 }
+
+section {
+  width: 960px;
+  margin: 0 auto 30px;
+}
+
+aside {
+  float: left;
+  margin: 0 10px 30px;
+}
+
+aside:last-of-type{
+  width: 50%;
+  margin-left: 0;
+  margin-right: 30px;
+}
+
+p {
+  overflow-y: scroll;
+  height: 340px;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+button{
+  background: black;
+  color: white;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  transition: all ease-in 350ms;
+}
+
+button:hover{
+  background-color: #666666;
+  color: black;
+  border: outset 5px blue;
+  border-radius: 50%;
+  transition: all ease-in 350ms;
+}
+
+button:active{
+  border: inset 5px blue;
+}
+
+footer{
+  background: #3a3a3a;
+  height: 90px;
+}
