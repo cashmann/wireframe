@@ -1,0 +1,33 @@
+body {
+  overflow: scroll;
+}
+
+nav img{
+  display: inline-block;
+  position: absolute;
+}
+
+nav {
+  padding: 10px 100px;
+  margin-bottom: 20px;
+  background: #3a3a3a;
+}
+
+ul{
+  display: inline-block;
+  margin-left: 220px;
+}
+
+li {
+  display: inline-block;
+  text-align: center;
+  height: 70px;
+  width: 200px;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: #ccc;
+  line-height: 70px;
+}
