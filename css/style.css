@@ -4,24 +4,34 @@ body {
 
 nav img{
   display: inline-block;
-  position: absolute;
+}
+
+header{
+  background: #3a3a3a;
 }
 
 nav {
-  padding: 10px 100px;
-  margin-bottom: 20px;
+  width: 960px;
+  margin: 0 auto;
   background: #3a3a3a;
 }
 
 ul{
   display: inline-block;
-  margin-left: 220px;
+  margin: 10px auto;
 }
 
 li {
   display: inline-block;
+  padding-left: 10px;
   text-align: center;
+  width: 170px;
+  vertical-align: middle;
   height: 70px;
+}
+
+li:first-of-type {
+  padding-left: 0;
   width: 200px;
 }
 
@@ -34,7 +44,7 @@ a {
 
 section {
   width: 960px;
-  margin: 0 auto 30px;
+  margin: 15px auto 15px;
 }
 
 aside {
